@@ -2,14 +2,13 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class TestClasseEleve 
 {
-	private Eleve e1, e2, e3; 
+	private Eleve e1; 
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception 
